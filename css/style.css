@@ -1,0 +1,13 @@
+.reclutas{
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+}
+body{
+    background-image: url("../assets/fondo1.jpg");
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

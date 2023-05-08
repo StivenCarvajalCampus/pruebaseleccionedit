@@ -1,0 +1,86 @@
+{
+  "reclutas": [
+    {
+      "nombre": "stiven carvajal",
+      "edad": "23",
+      "telefono": "3103004790",
+      "email": "sviwe@gamil.com",
+      "direccion": "palomitas",
+      "fecha_nacimiento": "2023-05-04",
+      "cedula": "26546546",
+      "fecha_ingreso": "2023-05-02",
+      "teamId": 1,
+      "id": 1
+    },
+    {
+      "nombre": "fabio",
+      "edad": "21",
+      "telefono": "3103004790",
+      "email": "sviwe@gamil.com",
+      "direccion": "floridablanca",
+      "fecha_nacimiento": "2006-02-09",
+      "cedula": "123549879",
+      "fecha_ingreso": "2012-03-01",
+      "teamId": 1,
+      "id": 3
+    },
+    {
+      "nombre": "eduardo",
+      "edad": "15",
+      "telefono": "3222106224",
+      "email": "eduar@gmail.com",
+      "direccion": "lebrija",
+      "fecha_nacimiento": "2009-01-07",
+      "cedula": "10528495987",
+      "fecha_ingreso": "2023-01-23",
+      "teamId":2,
+      "id": 5
+    }
+  ],
+  "team": [
+    {
+      "name": "artemis",
+      "trainer_asociado": "Jholver",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Apolo",
+      "trainer_asociado": "Vermen"
+    },
+    {
+      "name": "sputnik",
+      "trainer_asociado": "Miguel",
+      "id": 3
+    },
+    {
+      "name": "cosmosdevs",
+      "trainer_asociado": "Galvis",
+      "id": 4
+    }
+  ],
+  "skill": [
+    {
+      "id": "1",
+      "name": "javascript"
+    },
+    {
+      "id": "2",
+      "name": "css"
+    }
+  ],
+  "moduloskill": [
+    {
+      "id": 1,
+      "nombre": "front-end",
+      "skillId": 2
+    }
+  ],
+  "evaluacion": [
+    {
+      "reclutaId": 1,
+      "moduloId": 1,
+      "nota": 3.7
+    }
+  ]
+}
