@@ -1,13 +1,167 @@
-.reclutas{
-    display: flex;
-    width: 100vw;
-    height: 50vh;
-}
 body{
-    background-image: url("../assets/fondo1.jpg");
+    background: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
-.h1{
+
+a{
+    text-decoration: none;
+}
+.wrapper{
+    width: 85%;
+    margin: 0 auto;
+}
+header{
+    padding: 40px 0;
+    position: absolute;
+    width: 100%;
+}
+.header-column{
+    display: inline-block;
+    width: 33%;
+    vertical-align: middle;
+}
+.header-column:first-child,
+.header-column:last-child{
+    width: 20%;
+
+}
+.header-logotipo{
+    background: linear-gradient(#d30727, #9e0019);
+    box-shadow: 0 0 20px 0 #ff0000;
+    border-radius: 50%;
+    width: 95px;
+    height: 95px;
+    position: relative;
+}
+.header-logotipo img{
+    width: 59px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header-button{
+    background: #d30727;
+    font: 19px "Oswald";
+    font-weight: 500px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+nav{
+    text-align: center;
+    
+}
+.menu-list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menu-list li{
+    display: inline-block;
+    width: 130px;
+}
+.menu-list li a{
+    font: 20px "Oswald";
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    transition: all 400ms;
+}
+.menu-list li a:after{
+    content: "";
+    width: 0;
+    height: 5px;
+    border-radius: 2px;
+    background: #d30727;
+    bottom: -20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 400ms;
+}
+.menu-list li a:hover{
+    color: #cccccc;
+}
+.menu-list li a:hover::after{
+    width: 60px;
+}
+.intro{
+    background: url("../starwars/assets/images/fondo1.jpg") no-repeat center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+.intro-content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35%;
+
+}
+.intro-title{
+    font: 132px/130px "Oswald";
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 0;
+    position: relative;
+}
+.intro-title span{
+    display: block;
+    font-weight: 200;
+}
+.intro-description{
+    font: 16/35px "Roboto";
+    opacity: 0.8;
+    margin: 40px 0;
+}
+.intro-link{
+    font: 27px "Oswald";
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 4px;
+}
+.intro-link i{
+    background: #fff;
+    height: 3px;
+    width: 35px;
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    margin-left: 20px;
+}
+.intro-link i:before,
+.intro-link i:after{
+    content: "";
+    background: #fff;
+    position: absolute;
+    height: 3px;
+    width: 12px;
+}
+.intro-link i:before{
+    right: -3px;
+    bottom: -4px;
+    transform: rotate(-45deg);
+}
+.intro-link i:after{
+    right: -3px;
+    bottom: -4px;
+    transform: rotate(45deg);
+}
+.reclutas{
+    min-height: 50vh;
     display: flex;
-    justify-content: center;
     align-items: center;
 }

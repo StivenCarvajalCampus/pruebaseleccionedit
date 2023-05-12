@@ -1,18 +1,6 @@
 {
   "reclutas": [
     {
-      "nombre": "stiven carvajal",
-      "edad": "23",
-      "telefono": "3103004790",
-      "email": "sviwe@gamil.com",
-      "direccion": "palomitas",
-      "fecha_nacimiento": "2023-05-04",
-      "cedula": "26546546",
-      "fecha_ingreso": "2023-05-02",
-      "teamId": 1,
-      "id": 1
-    },
-    {
       "nombre": "fabio",
       "edad": "21",
       "telefono": "3103004790",
@@ -33,8 +21,19 @@
       "fecha_nacimiento": "2009-01-07",
       "cedula": "10528495987",
       "fecha_ingreso": "2023-01-23",
-      "teamId":2,
+      "teamId": 2,
       "id": 5
+    },
+    {
+      "nombre": "stiven carvajal ramirez",
+      "edad": "23",
+      "telefono": "3103004790",
+      "email": "stiven@gmail.com",
+      "direccion": "floridablanca",
+      "fecha_nacimiento": "2005-03-03",
+      "cedula": "22054987951",
+      "fecha_ingreso": "2023-05-11",
+      "id": 6
     }
   ],
   "team": [

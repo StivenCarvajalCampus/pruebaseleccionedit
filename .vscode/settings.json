@@ -1,5 +1,6 @@
 {
     "conventionalCommits.scopes": [
         "jsonserverprueba"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
